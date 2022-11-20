@@ -1,0 +1,157 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+h1{
+  color : #004890;
+  margin: 20px 0px;
+}
+.main p , .info p{
+  margin: 8px 0px 35px 0px;
+}
+.nav{
+  background-color: #004890;
+  padding: 15px 35px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.nav a{
+  margin: 0px 10px;
+  color: #ffffff;
+  text-decoration: none;
+  border-right: 1px solid #ffffff;
+  padding: 0px 10px;
+  font-size: 15px;
+}
+
+.main{
+  height: 670px;
+  background-color: #ddf1fb;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+#mainImg{
+  height: 400px;
+}
+.main h4{
+  color: #004890;
+  margin-bottom: 120px;
+}
+
+button{
+  background-color: #004890;
+  color: #ffffff;
+  word-spacing: 2px;
+  padding: 10px 25px;
+  border: none;
+  letter-spacing: 2px;
+}
+
+.include{
+  text-align: center;
+  padding: 50px 11%;
+}
+.include img{
+  height: 80px;
+}
+.ImgContent{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px 0px 50px 0px;
+  
+}
+span{
+  font-size: 12px;
+  margin: 0px 10px;
+  font-weight: bold;
+}
+.textContent{
+  width: 770px;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Source Sans Roman";
+}
+.info{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0% 11%;
+  background-color: #ddf1fb;
+  height: auto;
+}
+.info button{
+  background-color: #004890;
+  color: #ffffff;
+  word-spacing: 2px;
+  border: none;
+  padding: 10px 0px 20px 10px;
+  text-align: center;
+  height: 0px;
+  width: 350px;
+  border-radius: 20px;
+  font-size: 10px;
+  position: relative;
+  left: 327px;
+  top: 56px;
+  z-index: 1;
+}
+.box{
+  width: 600px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px 10px;
+  height: 230px;
+  background-color: #ffffff;
+  position: relative;
+  top: 70px;
+  left: 40px;
+  
+}
+.textContent p{
+  font-size: 15px;
+}
+.card{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.box span {
+  font-size: 15px;
+  width: 250px;
+  margin-top: 25px;
+} 
+.box img{
+  height: 70px;
+}
+.contactItem{
+  display: flex;
+  justify-content: space-around;
+}
+.contactItem img{
+  height: 250px;
+  position: relative;
+}
+.contactText{
+  position: relative;
+  background-color: #ffffff;
+  height: 140px;
+  top: 56px;
+  padding: 3px 53px 2px 70px;
+  width: 100%;
+}
+.contact{
+  background-color: #ddf1fb;
+  
+}
+.stuff{
+  color: #ffffff;
+  background-color: #004890;
+  padding: 5px 0px;
+  text-align: center;
+  margin: 30px   0px 0px 0px;
+}
